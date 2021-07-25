@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SingUp</title>
+    <!-- Css Style -->
+    <link rel="stylesheet" href="css/gel.css">
+    <!-- Responsive File -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Karal Fonts For Heading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+    <!-- Roboto For body-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="continer">
+        <h2>creat an account</h2>
+        <form class="form" action="">
+            <div class="gender">
+                <select class="gender-info">
+                <option>Mr</option>
+                <option>Mrs</option>
+            </select>
+            </div>
+
+            <!-- start input-info  -->
+
+            <div class="input-info">
+                <div>
+                    <label for="">Please Enter Your First Name </label>
+                    <input type="text" placeholder="First Name" required>
+                </div>
+                <div>
+                    <label for="">Please Enter Your Last Name </label>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <div>
+                    <label for="">Please Enter Your Street Name </label>
+                    <input type="text" placeholder="Street" required>
+                </div>
+                <div>
+                    <label for="">Please Enter Your CP Name </label>
+                    <input type="text" placeholder="CP" required>
+                </div>
+                <div>
+                    <label for="">Please Enter Your City Name </label>
+                    <input type="text" placeholder="City" required>
+                </div>
+                <div>
+                    <label for="">Please Enter Your City Name </label>
+                    <select name="" class="input-contry">
+                        <option value="">Egypt</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Please Enter Your phone Number </label>
+                    <input type="tel" placeholder="Phone" id="phone" required>
+                </div>
+            </div>
+
+
+            <!-- End input-info  -->
+
+            <!-- Start info  -->
+
+            <h3>NEWSLETTER</h3>
+            <div class="info">
+                <div>
+                    <input type="checkbox" class="accept">
+                    <label for="">Yes, I would like to receive the newsletter.</label>
+                </div>
+                <div>Subscribe to the newsletter and receive a promo code of 10 € on your next order. *
+                </div>
+                <div class="Email">
+                    <label for="">Please Enter Your Email </label>
+                    <input type="email" id="email" placeholder="Email Address *" required>
+                </div>
+                <div>
+                    <label for="">Please Enter Your Password </label>
+                    <input type="password" id="password" placeholder="Password *" required>
+
+                    <i class="far fa-eye-slash" id="hide2"></i>
+                </div>
+                <div>
+                    <label for="">Please Confirm Your Password</label>
+                    <input type="password" placeholder="Confirm Password *" id="password-2" required>
+                    <i class="far fa-eye-slash" id="hide3"></i>
+                </div>
+                <div style="align-self: flex-end;"> <input type="checkbox" name="" id="checkbox" required>
+                    <label for="checkbox">I accept The Conditions of Use</label>
+                </div>
+            </div>
+            <button id="btn">Sing Up</button>
+            <a href="#">Or, Log in?</a>
+            <!-- end info  -->
+
+
+        </form>
+    </div>
+    <script src="gel.js"></script>
+</body>
+
+</html>
